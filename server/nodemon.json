@@ -1,0 +1,7 @@
+{
+  "watch": ["controllers", "routes", "middleware", "models", "services", "utils", "sockets", "config", "app.js", "server.js"],
+  "ext": "js",
+  "ignore": ["node_modules", "tests", "nodemon.json", "package.json", "package-lock.json"],
+  "delay": 500,
+  "signal": "SIGTERM"
+}

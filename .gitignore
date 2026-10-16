@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output
+client/dist/
+
+# Environment files (keep .env.example, ignore actual .env)
+.env
+client/.env
+server/.env
+
+# Firebase service account key (sensitive)
+server/serviceAccountKey.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.kiro/
+
+# Output screenshots
+Output/
